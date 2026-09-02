@@ -1,0 +1,16 @@
+Ref,Value,LCSC#,MPN,Manufacturer,Footprint,Qty,Unit Price($),Ext Price($),Supplier Link
+C1,C2,C4,C6,10uF 25V X5R,C15850,CL21A106KAYNNNE,Samsung Electro-Mechanics,0805,20,0.0871,1.74,https://www.lcsc.com/product-detail/C15850.html
+C3,C5,C7,22uF 25V X5R,C86816,GRM21BR61E226ME44L,muRata,0805,10,0.0698,0.70,https://www.lcsc.com/product-detail/C86816.html
+D1,D2,D3,D4,D5,D6,Orange LED 0805,C965813,XL-2012UOC,XINGLIGHT,0805,50,0.0096,0.48,https://www.lcsc.com/product-detail/C965813.html
+J1,USB-C Receptacle 16P,C165948,TYPE-C-31-M-12,Korean Hroparts Elec,SMD,5,0.1724,0.86,https://www.lcsc.com/product-detail/C165948.html
+J2,USB-A Right Angle,C19944603,DS1095-WNR0,CONNFLY Elec,Through Hole,5,0.2076,1.04,https://www.lcsc.com/product-detail/C19944603.html
+J3,JST PH 2P 2mm,C131337,B2B-PH-K-S(LF)(SN),JST,Through Hole,20,0.0356,0.71,https://www.lcsc.com/product-detail/C131337.html
+L1,1uH Shielded Inductor,C5355380,XFL4020-102MEC,Coilcraft,SMD 4x4mm,1,2.5134,2.51,https://www.lcsc.com/product-detail/C5355380.html
+R1,R2,5.1k 1% 0805,C27834,0805W8F5101T5E,UNI-ROYAL,0805,100,0.0065,0.65,https://www.lcsc.com/product-detail/C27834.html
+R3,R5,R6,10k 1% 0805,C2907219,FRC0805F1002TS,FOJAN,0805,100,0.0035,0.35,https://www.lcsc.com/product-detail/C2907219.html
+R4,R7,2R 1% 0805,C114246,RC0805FR-072RL,YAGEO,0805,50,0.0261,1.31,https://www.lcsc.com/product-detail/C114246.html
+SW1,Tactile Switch 4.7x4.5mm,C388885,EVQPUD02K,PANASONIC,SMD,5,0.2299,1.15,https://www.lcsc.com/product-detail/C388885.html
+U1,IP5306 ESOP-8,C181692,IP5306,INJOINIC,ESOP-8,5,0.2989,1.49,https://www.lcsc.com/product-detail/C181692.html
+PCB,Bare PCB 5 pcs (JLCPCB special offer),,,JLCPCB,,5,0.64,3.20,
+Shipping,,Global Standard (JLCPCB),,,,1,1.50,1.50,
+Total,,,Components (LCSC) + PCB + shipping,,,,17.69,

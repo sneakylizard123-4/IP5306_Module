@@ -80,9 +80,15 @@ Connect a 1S Li-ion/LiPo battery to the JST PH connector. Plug a USB-C charger i
 
 ## Cost
 
-todo
+| Item | Cost |
+|------|------|
+| PCB (5 pcs, JLCPCB special offer) | $3.20 |
+| Shipping (JLCPCB Global Standard) | $1.50 |
+| **PCB subtotal** | **$4.70** |
+| Components (LCSC, cart quantities) | $12.99 |
+| **Total** | **$17.69** |
 
-See [BOM.csv](BOM.csv) for full part list with supplier links.
+See [BOM.csv](BOM.csv) for the full part list with LCSC supplier links.
 
 ## Known Issues
 
