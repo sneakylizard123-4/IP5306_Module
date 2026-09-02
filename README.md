@@ -33,7 +33,28 @@ The IP5306 integrates the entire power path. On the input side, USB-C 5V charges
 
 ### Power Tree
 
-![Power tree](images/power-tree.png)
+The power path flows from the USB-C input through the IP5306 charger into the battery, and from the battery through the IP5306 boost converter out to the USB-A port. The KEY button and LED gauge hang off the chip's control pins.
+
+| Direction | Path |
+|-----------|------|
+| Charge | USB-C (5V) -> IP5306 charger -> 1S battery |
+| Discharge | 1S battery -> IP5306 boost -> 5V USB-A out |
+
+## Board
+
+![IP5306 module open in the KiCad PCB editor](images/editor.png)
+
+![Top copper layer](images/top-layer.png)
+*Top layer with the tracks, pads and ground pour.*
+
+![Bottom copper layer](images/bottom-layer.png)
+*Bottom layer with the stitched ground return path.*
+
+![Assembled board, top view](images/render-top.png)
+
+![Assembled board, isometric view](images/finished.png)
+
+![Assembled board, bottom view](images/render-bottom.png)
 
 ## Usage
 

@@ -13,7 +13,9 @@ The core parts of the schematic were the IP5306 itself, a USB-C jack for input (
 
 Biggest miss here: I did not connect the USB-C data pins (D+/D-) to anything, just left them floating with the CC pins handled via breakouts. The IP5306 is a dedicated power device, so it does not need data, but leaving them unconnected on the connector is a bit sloppy and I know some host chargers look for something there. For a first version I decided to live with it.
 
-![schematic](images/schematic.png)
+![schematic](images/schematic/root.png)
+
+![IP5306 sub-sheet](images/schematic/ip5306.png)
 
 **Total time spent: 3 hours**
 
@@ -24,6 +26,8 @@ Layout was the part that took most of the session. The board is two layers and I
 I put copper pours on both the top and bottom faces to act as a solid ground and to help handle the current on the 5V output path. The boost converter pulls bursts of current, so a thin track would have been a voltage droop problem. I also dropped vias around the pours to stitch the ground planes together across both layers, so there are no dead zones under the IC where return current would have to loop around.
 
 Lesson learned the hard way: I originally routed the battery traces right under the IP5306's inductor. The datasheet explicitly says to keep the switching node and inductor area clean, so I reworked it and moved the battery connector so its tracks bypass that zone. Communicating which nets matter in a power board really changes where things can go.
+
+![board in PCB editor](images/editor.png)
 
 ![top layer](images/top-layer.png)
 ![bottom layer](images/bottom-layer.png)
