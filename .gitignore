@@ -1,0 +1,16 @@
+# KiCad
+*.kicad_dru
+*.kicad_wks
+*~*.lck
+_autosave-*
+.board_backups/
+fp-info-cache
+
+# KiCad local history (should not be a git submodule)
+kicad/.history/
+
+# Per-user / editor
+.kicad/
+
+# Build artifacts already committed to kicad/production are intentional; ignore others
+fabrication-toolkit-options.json
