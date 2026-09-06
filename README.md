@@ -17,7 +17,7 @@ This board is a small power bank module built around the Injoinic IP5306 SoC. It
 
 ## How It Works
 
-The IP5306 has the entire power path inside of it. On the input side, 5v from USB-C charges a connected 1S lithium battery through the IP5306's built-in 2.1A charger. On the output side, the chip boosts the battery voltage to a regulated 5V output rail when in power-bank mode. The boost inductor and output capacitors form the boost converter, while the battery, LED, and decoupling capacitors support the charge path, gauge, and IC supply. Pressing the KEY button powers the module on/off and goes through the fuel gauge.
+The IP5306 has an entire power path inside of it. On the input side, 5v from USB-C charges a connected 1S lithium battery through the IP5306's built-in 2.1A charger. On the output side, the chip boosts the battery voltage to a regulated 5V output rail when in power-bank mode. The boost inductor and output capacitors form the boost converter, while the battery, LED, and decoupling capacitors support the charge path, gauge, and IC supply. Pressing the KEY button powers the module on/off and goes through the fuel gauge.
 
 | Block | Part | Role |
 |-------|------|------|
@@ -58,8 +58,8 @@ The power path flows from the USB-C input through the IP5306 charger into the ba
 
 ## Usage
 
-1. Connect a 1S Li-ion/LiPo battery to the JST PH connector. 
-2. Apply power into the USB-C to charge the battery; the LEDs indicate charge state. 
+1. Connect a 3.7V Li-ion/LiPo battery to the JST PH connector. 
+2. Connect the USB-C to charge the battery. the LEDs indicate charge state. 
 3. Connect a device to the USB-A port and press the power button to enable the 5V output; short presses cycle the LED fuel gauge and a long press toggles the module on/off.
 
 | Pin | Function |
@@ -90,4 +90,4 @@ The power path flows from the USB-C input through the IP5306 charger into the ba
 | Components | $12.99 |
 | **Total** | **$17.69** |
 
-See [BOM.csv](BOM.csv) for the full part list with LCSC supplier links.
+*Full BOM available in BOM.csv*
